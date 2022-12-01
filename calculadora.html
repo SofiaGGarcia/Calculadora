@@ -1,33 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<!--     <div id="appBg">
-        <form name="calculator">
-            <input type="textfield" name="ans" value="" autocomplete="off" readonly/>
+    <head>
 
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="+">
-            <br>
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="-">
-            <br>
-            <input type="button" value="0">
-            <input type="button" value="C">
-            <input type="button" value="=">
-            <input type="button" value="/"> -->
+        <meta charset="UTF-8">
+        <TItle>Calculadora</TItle>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    
+    
+    </head>
+    
+    <body>
+        
+        <div class="enter_numbers">
+            <label >Enter your first number:</label>
+            <input type="text" id="number1"><br/><br/>
+            <label >Enter your second number :</label>
+            <input type="text"  id="number2">
+            <img src="corazon.png" height="40px" width="40px" />
 
+            <select class="selec" id="operators">
+                <option value="plus">SUM</option>
+                <option value="minus">SUBTRACTION</option>
+                <option value="division">DIVISION</option>
+                <option value="mult">MULTIPLICACION</option>
+        
+            </select>
 
-    <script src="./9.calculadora.js"></script> 
-</body>
+            <hr>
+            <button onclick="calculator()">Print Result:</button>
+            <input class="final_result" type="text" id="result"/>
+            <button type="reset">Reset</button>
+        
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
+
+
+        

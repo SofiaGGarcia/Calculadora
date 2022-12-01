@@ -1,15 +1,43 @@
-/* #appBg {
-    height: 420px;
-    width: 300px;
-    border: 1px solid black;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: brown;
+   
 }
 
-#appBg form {
-    height: 100%;
-    width: 100%;
-    background-color: black;
+input {
+    border-radius: 5px;
+    padding-left: 10px;
 }
 
-#appBg input[type-textfield] {
-    width: 100%;
-} */
+input:focus {
+    border-radius: 25px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(204, 178, 196);
+    color: rgb(8, 8, 8);
+
+}
+
+.enter_numbers {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(5, 5, 5);
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background-color: rgb(77, 156, 209);
+    box-shadow: 0 15px 25px rgb(12, 12, 12);
+    border-radius: 15px;
+} 
+.selec{
+    padding: 5px;
+    margin-bottom: 80px;
+}
+
+.final_result{
+    margin: 15px;
+}
